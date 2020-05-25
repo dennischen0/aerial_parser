@@ -10,6 +10,8 @@ var files = fs.readdirSync('resources/');
 
 let idMap = {};
 
+var args = process.argv.slice(2);
+
 files.forEach(file => {
   let rawdata = fs.readFileSync('resources/'+ file);
   let dataJson = JSON.parse(rawdata);
@@ -26,7 +28,7 @@ files.forEach(file => {
       console.log(`${filename} -> ${newname}`)
 
       //rename files
-      let dir = '/mnt/c/Users/Dennis\ Chen/Downloads/aerialvideos'
+      let dir = `${args[0]}`
       execSync(`mv ${filename} ${newname}`,{cwd: dir}, (err, stdout, stderr) => {
         if (err) {
           //some err occurred

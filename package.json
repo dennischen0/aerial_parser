@@ -1,0 +1,26 @@
+{
+  "name": "aerialwallpapers",
+  "version": "1.0.0",
+  "description": "This repo contains some scripts to help you download and rename aerial files. I suggest you read the code before running it.",
+  "main": "parsejson.js",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-progress": "^3.0.0",
+    "wget-improved": "^3.2.0",
+    "minimist": ">=1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennischen0/aerial_parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennischen0/aerial_parser/issues"
+  },
+  "homepage": "https://github.com/dennischen0/aerial_parser#readme"
+}

@@ -7,7 +7,7 @@
     "request": "^2.88.2",
     "request-progress": "^3.0.0",
     "wget-improved": "^3.2.0",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {},
   "scripts": {
